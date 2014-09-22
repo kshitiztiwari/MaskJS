@@ -126,7 +126,8 @@
                 console.log("Both Images loaded");
                 imgReady(srcImg, maskImg, i, options.confidence);
             }
-
+			
+			srcImg.crossOrigin = "anonymous";
             srcImg.src = s;
         }
         return Mask;

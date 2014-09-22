@@ -38,12 +38,12 @@
 		
 		<div class="src">
 			<h1>Mask</h1>
-			<img src = "mask.jpg" id="mask"/>
+			<img src = "https://dl.dropboxusercontent.com/u/15246667/mask.jpg" id="mask"/>
 		</div>
 		
 		<div class="src">
 		<h1>Output</h1>
-		<img src = "pencil.jpg" id="image"/>
+		<img src = "https://dl.dropboxusercontent.com/u/15246667/pencil.jpg" id="image"/>
 		</div>
 		
 		<p>Source available at <a href="https://github.com/kshitiztiwari/MaskJS">Github</a>.</p>
@@ -51,15 +51,17 @@
   </body>
   <script src = "../mask.js" type="text/javascript"></script>
   <script>
-	Mask({
-		/* Image id */
-		"id" : "image",
-		
-		/* Mask Image source */
-		"mask" : "mask.jpg",
-		
-		/* Boolean : true for greyscale mask */
-		"confidence" : false
+	document.addEventListener("DOMContentLoaded", function(event) {
+		Mask({
+			/* Image id */
+			"id" : "image",
+
+			/* Mask Image source */
+			"mask" : "https://dl.dropboxusercontent.com/u/15246667/mask.jpg",
+
+			/* Boolean : true for greyscale mask */
+			"confidence" : false
+		});
 	});
   </script>
 </html>
