@@ -1,6 +1,6 @@
 # Mask.js
 
-A simple javascript library for masking image using the image mask.
+A simple javascript plugin for masking image using the image mask.
 ##[ Demo ](http://codepen.io/kshitiztiwari/full/zHvjo/)
 
 ##Usage
