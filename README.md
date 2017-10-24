@@ -1,9 +1,11 @@
 # Mask.js
 
 A simple javascript plugin for masking image using the image mask.
-##[ Demo ](http://codepen.io/kshitiztiwari/full/zHvjo/)
 
-##Usage
+ ## [Demo](http://codepen.io/kshitiztiwari/full/zHvjo/)
+
+ ## Usage
+ 
 ```
 document.addEventListener("DOMContentLoaded", function(event) {
 	Mask({
